@@ -1,0 +1,29 @@
+#header {
+    height: 200px;
+    background-color: blueviolet;
+}
+
+#first-image{
+    background-color: aqua;
+    height: 300px;
+}
+
+#image {
+    padding: 10px
+}
+
+#between-images {
+    height: 50px;
+    background: #000;
+}
+
+#background-image {
+    background-image: url("../images/cuzco2.jpg");
+}
+
+#cuzco {
+    color: orange;
+    float: right;
+    font-family: The_Emperors_font;
+    vertical-align: middle;
+}
