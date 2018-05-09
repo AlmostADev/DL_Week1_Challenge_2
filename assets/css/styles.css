@@ -33,8 +33,17 @@ span {
 
 .cuzco-font {
     font-family: 'El Rio Lobo', Courier, monospace;
+    color: rgb(235, 156, 11);
 }
 
 .prices {
     text-align: center;
+}
+
+.text {
+    color: white;
+}
+
+p {
+    color: white;
 }
