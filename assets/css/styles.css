@@ -1,21 +1,25 @@
 .header {
-    height: 200px;
     background-color: #990e0e;
+    padding: 50px;
     text-align: center;
 }
 
 .first-image{
     background-color: aqua;
-    height: 300px;
+    height: 400px;
 }
 
-.image {
-    padding: 10px
+img {
+    display: block;
+    padding-top: 20px;
+    margin: auto;
+    width: 600px;
 }
 
 .background-image {
-    height: 210px;
+    height: 600px;
     background: url("../images/cuzco2.jpg") no-repeat;
+    background-size: cover;
 }
 
 .cuzco {
@@ -25,12 +29,6 @@
     vertical-align: middle;
 }
 
-span {
-    color: orange;
-    font-family: 'El Rio Lobo', Courier, monospace;
-    float: right;
-}
-
 .cuzco-font {
     font-family: 'El Rio Lobo', Courier, monospace;
     color: rgb(235, 156, 11);
@@ -38,6 +36,8 @@ span {
 
 .prices {
     text-align: center;
+    font-family: 'El Rio Lobo';
+    color: #000;
 }
 
 .text {
@@ -46,4 +46,12 @@ span {
 
 p {
     color: white;
+}
+
+span {
+    display: block;
+}
+
+h1 {
+    margin-top: 0;
 }
